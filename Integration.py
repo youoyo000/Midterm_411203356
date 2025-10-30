@@ -67,6 +67,7 @@ button_delete = tk.Button(root, text='Delete', command=delete_student)
 button_delete.pack(pady=25)
 
 # def a overview_student()
+
 # show all records in sqlite
 def overview_student():
     cursor.execute('SELECT * from DB_student')
